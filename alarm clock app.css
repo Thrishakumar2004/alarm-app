@@ -1,0 +1,88 @@
+body {
+    font-family: 'Raleway', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background:wheat;
+    padding: 75px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+nav button {
+    padding: 20px 40px;
+    font-size: 5em;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    background-color:darkgrey;
+    color:black;
+    margin: 0 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.clock {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.clock img {
+    width: 60%; 
+    max-width: 190px; 
+    height: auto; 
+}
+
+#current-time {
+    font-weight: bold;
+}
+
+.alarm-setter {
+    margin-top: 20px;
+}
+
+#alarm-time {
+    padding: 5px;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+}
+
+button#clear-alarm {
+    background-color: #f44336;
+}
+
+button#snooze {
+    background-color: #ffa500;
+}
+
+button#dismiss {
+    background-color: #f44336;
+}
+
+.alarm-buttons {
+    margin-top: 25px;
+}
